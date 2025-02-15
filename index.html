@@ -50,11 +50,43 @@
       <section id="video">
         <h2>Documentary</h2>
         <video width="600"controls>
-            <source src="C:\Users\ROHAN CHAUDHARI\Desktop\Assignment1.HTML\video\video.mp4" >
+            <source src="video/video.mp4" type="video/mp4" >
             your browser does not support the video.
         </video>
       </section>
       </main>
+      <aside>
+        <!--Links Section-->
+        <section id="links">
+            <h2>More About Marie Curie</h2>
+            <ul>
+                <li><a href="https://www.biography.com/scientists/marie-curie" target="_blank" title="Biography of Marie Curie">Biography.com</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Marie_Curie"target="_blank"title="wikipedia page of Marie Curie">Wikipedia</a></li>
+                <li><a href="https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/" target="_blank" title="Marie Curie's Nobel Prize">nobelprize</a></li>
+            </ul>
+        </section>
+        <!--Contact Form Section-->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <lable for="name" class="form-lable">Name:</lable>
+                <input type="text" id="name" class="form-control" placeholder="Enter your name" required><br>
+                <label for="message" class="form-label">Message:</label>
+                <textarea id="message" class="form-control" placeholder="Your message here..." required></textarea><br>
+                <label for="topic" class="form-label">Topic:</label>
+                <select id="topic" class="form-control">
+                <option selected>General Inquiry</option><br>
+                <option>Feedback</option>
+                <option>Support</option>
+                </select>
+                <br>
+                <button type="submit" class="form-control">Submit</button>
+            </form>
+        </section>
+      </aside>
+      <footer>
+        <p>&copy;2025 Soha Chaudhari.All rights reserved.</p>
+      </footer>
 
 
 </body>
