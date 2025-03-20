@@ -66,3 +66,39 @@ blockquote{
     border-left: 5px solid #6a11cb;
     background-color: #f9f9f9;
 }
+
+/* Images & Figures */
+figure{
+    background-color: #ddd;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+}
+img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Quotes */
+q{
+    font-style: italic;
+    font-weight: bold;
+    color: #6a11cb;
+    border-left: 4px solid #2575fc;
+    padding-left: 8px;
+}
+
+/* Lists*/
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul li a {
+    text-decoration: none;
+    color: navy;
+}
+
+ul li a:hover {
+    color: red;
+}
