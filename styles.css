@@ -117,14 +117,17 @@ input, textarea,select{
 }
 
 button{
-    background-color: #2575fc;
-    color: white;
+    background-color: #6a11cb; 
+    color: #FFFFFF; 
+    padding: 10px 20px;
     border: none;
-    padding: 10px 15px;
+    font-weight: bold;
     cursor: pointer;
+    border-radius: 5px;
 }
 button:hover{
-    background-color: #6a11cb;
+    background-color: #001a44;
+    color: #6a11cb;
 }
 
 /* Video */
